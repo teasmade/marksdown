@@ -16,7 +16,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="grid grid-cols-2 gap-4 px-4">
+          <a href="/" className="text-blue-500 hover:underline">
+            HOME
+          </a>
+          <a href="/collections" className="text-blue-500 hover:underline">
+            COLLECTIONS
+          </a>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
