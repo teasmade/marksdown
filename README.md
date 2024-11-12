@@ -1,6 +1,6 @@
 ## Marksdown
 
-WIP tool to connect to a Raindrop.io account, browse bookmark collections in various ways using Next server compoonents
+WIP tool to connect to a Raindrop.io account, browse bookmark collections in various ways using Next server components
 
 ```bash
 npm run dev
